@@ -55,6 +55,12 @@ cover/
 *.mo
 *.pot
 
+#model weights
+*.pth
+*.onnx
+*.tar
+*.ipynb
+
 # Django stuff:
 *.log
 local_settings.py

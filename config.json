@@ -1,0 +1,27 @@
+{
+    "Yolov8":{
+            "confThreshold":0.5,
+            "nmsThreshold":0.5,
+            "modelpath":"./Weights/yolov8n-face.onnx"
+            } ,
+    "MFSTNet":{
+                "modelpath":"Weights/epochs_84_57.576_out_data.pth",
+                "label_DFEW":["anger", "surprise", "sad", "happy", "neutral", "disgust", "fear", "contempt"],
+                "label_self":["Confuse","Bored","Interest","Happy"],
+                "mean":[0.485, 0.456, 0.406],
+                "std":[0.229, 0.224, 0.225],
+                "img_height":224,
+                "img_wide":224,
+                "num_class":4,
+                "forzen_frame":7,
+                "seed":3047
+            } ,
+    "Result_info":{
+        "Save_Result":false,  
+        "Save_Path":"./result1.mp4",     
+        "Show_Result":true 
+    },
+    "Video_path":0,  
+    "DEVICE":"cpu"
+
+}
