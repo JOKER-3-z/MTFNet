@@ -29,12 +29,16 @@ pip install -r requirements.txt
 ```
 seed_(random seed)/epochs_(number of epoch in best acc)_（best acc on evaluate set）_(model name)
 ```
-## model trainning
+## model trainning  
+Download Basic model weight to ./Parameter folder:  
+Resnet18_FER+_pytorch.pth.tar (Link: https://pan.baidu.com/s/17-31WZcGw5MyyYcPO7GZ1Q?pwd=s2f1)
 ```
 run_singleout.py 
 ```
 
 ## Testing
+- Download Basic model weight to ./weights folder:  
+  - yolov8n-face.onnx(https://pan.baidu.com/s/1y512sj2fGLF26yieX7mXeA?pwd=s2f1)
 set the parameter in the config.json file
 ```
 predict.py  
