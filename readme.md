@@ -1,7 +1,7 @@
 
 # MTFNET
 paper link: [MTFNet: Multi-Scale Transformer Framework for Robust Emotion Monitoring in Group Learning Settings](http://www.apsipa2024.org/files/papers/78.pdf)
-- Abstrct:  
+- Abstrct:   
 Identifying students' learning states in authentic classroom settings is a prominent topic in educational technology.
 This study addresses the challenges posed by complex facial environments and the scarcity of data in such settings. 
 we propose a Multi-Scale Transformer with Frame Shuffled Order Predict Network (MTFNet), based on a spatial-temporal feature
